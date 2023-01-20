@@ -83,10 +83,8 @@ def test_imgs():
     # image_dir = 'D:/Datasets/Tray_Data/20220622_114400'
     # prediction_dir = 'D:/Datasets/Tray_Data/20220622_114400' + '_results/'
 
-    # image_dir = '/media/sunny-dxs/Workspace2/Datasets/spider_imgs/tray/塑料平板托盘-20220117'
-    image_dir = '/media/sunny-dxs/Workspace2/Datasets/spider_imgs/tray/塑料网格托盘-20220117'
-    # image_dir = '/media/sunny-dxs/Workspace2/Datasets/spider_imgs/tray/田字托盘-20220117'
-    prediction_dir = f'{image_dir}/../' + 'imgMatting_results/塑料网格托盘-20220117'
+    # image_dir = '/media/sunny-dxs/Workspace2/Datasets/spider_imgs/x-20220117'
+    prediction_dir = f'{image_dir}/../' + 'imgMatting_results/x-20220117'
 
     model_dir = './ckpt/basnet.pth'
 
